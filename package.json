@@ -1,0 +1,29 @@
+{
+  "name": "fontawesome-bundler",
+  "version": "1.0.0",
+  "description": "Extract fontawesome icons which your project use into one bundle",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test.js"
+  },
+  "keywords": [
+    "fontawesome",
+    "bundler"
+  ],
+  "author": "Vitaliy Ribachenko <vit@ribachenko.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "dependencies": {
+    "fs-fs": "^1.0.0",
+    "globby": "^7.1.1"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@fortawesome/fontawesome-free-brands": "^5.0.2",
+    "jest": "^22.0.4"
+  }
+}
